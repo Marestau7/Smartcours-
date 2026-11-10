@@ -1,0 +1,104 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f6fc;
+  color: #26334a;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #1746a2, #3478f6);
+  color: white;
+  text-align: center;
+  padding: 35px 18px;
+  border-radius: 0 0 25px 25px;
+}
+
+header h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 15px;
+}
+
+main {
+  width: 92%;
+  max-width: 650px;
+  margin: 25px auto;
+}
+
+section {
+  background: white;
+  padding: 22px;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+h2 {
+  color: #1746a2;
+  margin-bottom: 12px;
+  font-size: 21px;
+}
+
+.welcome {
+  border-left: 5px solid #3478f6;
+}
+
+label {
+  display: block;
+  margin: 15px 0 8px;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 14px;
+  border: 1px solid #ccd5e5;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  resize: vertical;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #3478f6;
+}
+
+button {
+  width: 100%;
+  background: #2463df;
+  color: white;
+  border: none;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:active {
+  background: #1746a2;
+}
+
+#result, #quiz-area {
+  margin-top: 18px;
+}
+
+footer {
+  text-align: center;
+  padding: 22px;
+  color: #68758a;
+  font-size: 13px;
+}
