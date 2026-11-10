@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartCours - Apprendre autrement</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>📚 SmartCours</h1>
+    <p>Comprends tes cours, entraîne-toi et progresse !</p>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <h2>Bienvenue sur SmartCours</h2>
+      <p>La plateforme gratuite pour mieux comprendre tes leçons.</p>
+    </section>
+
+    <section class="lesson">
+      <h2>Créer une leçon</h2>
+      <label for="course">Colle ton cours ou son lien :</label>
+      <textarea id="course" placeholder="Écris ou colle ton cours ici..."></textarea>
+      <button id="generate">Générer mon explication</button>
+      <div id="result"></div>
+    </section>
+
+    <section class="quiz">
+      <h2>Tester mes connaissances</h2>
+      <p>Après ton explication, tu pourras faire un quiz de 5 à 10 questions.</p>
+      <div id="quiz-area"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 SmartCours - Apprendre gratuitement</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
